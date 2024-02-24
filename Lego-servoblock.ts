@@ -22,9 +22,9 @@ namespace kitronik_simple_servo {
      * Selection of direction to turn for continuous servos
      */
     export enum ServoDirection {
-        //% block="forwards"
+        //% block="forward"
         CCW,
-        //% block="backwards"
+        //% block="backward"
         CW
     }
 
@@ -94,7 +94,7 @@ namespace kitronik_simple_servo {
      */
     //% group="360 Servo"
     //% blockId=kitronik_simple_servo_run_percentage
-    //% block="let servo motor %servoSelection turn %direction at %percentSpeed \\% speed"
+    //% block="make servo motor %servoSelection turn %direction at %percentSpeed \\% speed"
     //% percentSpeed.min=0 percentSpeed.max=100
     //% percentSpeed.defl=50
     //% color=#00A654
